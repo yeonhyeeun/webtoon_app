@@ -16,7 +16,6 @@ class MyApp extends StatelessWidget {
         body: Padding(
           padding: EdgeInsets.symmetric(
             horizontal: 10,
-
           ),
           child:  Column(
             children: [
@@ -44,6 +43,17 @@ class MyApp extends StatelessWidget {
                   ),
                 ],
               ),
+              SizedBox(
+                height: 120,
+              ),
+              Text("Total Balance",
+                style: TextStyle(
+                  color: Colors.white.withOpacity(0.8),
+                  fontSize: 30,
+                  fontWeight: FontWeight.w100,
+                ),
+              ),
+
             ],
           ),
         ),
